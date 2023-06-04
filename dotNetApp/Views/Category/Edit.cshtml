@@ -1,0 +1,28 @@
+﻿@model Category
+
+<h1>Edit category</h1>
+
+
+<form method="post">
+<input type="hidden" asp-for="category_id" />
+    <div class="form-group">
+        <label asp-for="name">Name:</label>
+        <input asp-for="name" type="text" class="form-control"  >
+        <span asp-validation-for="name" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label asp-for="description">Description:</label>
+        <input asp-for="description" class="form-control" rows="4">
+        <span asp-validation-for="description" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary form control">Update</button>
+    
+</form>
+
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
