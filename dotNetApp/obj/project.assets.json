@@ -3698,6 +3698,42 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "dotNet.DAO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5",
+          "dotNet.Models": "1.0.0",
+          "dotNet.Utility": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/dotNet.DAO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dotNet.DAO.dll": {}
+        }
+      },
+      "dotNet.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/dotNet.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dotNet.Models.dll": {}
+        }
+      },
+      "dotNet.Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/dotNet.Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/dotNet.Utility.dll": {}
+        }
       }
     }
   },
@@ -10667,6 +10703,21 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "dotNet.DAO/1.0.0": {
+      "type": "project",
+      "path": "../DAO/dotNet.DAO.csproj",
+      "msbuildProject": "../DAO/dotNet.DAO.csproj"
+    },
+    "dotNet.Models/1.0.0": {
+      "type": "project",
+      "path": "../dotNet.Models/dotNet.Models.csproj",
+      "msbuildProject": "../dotNet.Models/dotNet.Models.csproj"
+    },
+    "dotNet.Utility/1.0.0": {
+      "type": "project",
+      "path": "../dotNet.Utility/dotNet.Utility.csproj",
+      "msbuildProject": "../dotNet.Utility/dotNet.Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10675,7 +10726,8 @@
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.5",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.6"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 7.0.6",
+      "dotNet.DAO >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10705,7 +10757,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Simofatt\\dotNet\\DAO\\dotNet.DAO.csproj": {
+              "projectPath": "C:\\Users\\Simofatt\\dotNet\\DAO\\dotNet.DAO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

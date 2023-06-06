@@ -1,4 +1,4 @@
-﻿using dotNetApp.Models;
+﻿using dotNet.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

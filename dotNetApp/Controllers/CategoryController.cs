@@ -1,19 +1,27 @@
-﻿using dotNetApp.Data;
-using dotNetApp.Models;
+﻿using dotNet.DAO.Data;
+using dotNet.Models;
+
 using Microsoft.AspNetCore.Mvc;
+using dotNet.DAO.Repository.IRepository;
+using dotNet.DAO.Repository;
 
 namespace dotNetApp.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _db;
-        public CategoryController(ApplicationDbContext db)
+       // private readonly ApplicationDbContext _db;
+ 
+       
+        //private readonly ICategoryRepository _categoryRepo;    // we are asking dependency injection to give us the object of ICategoryRepository
+        private readonly IUnitOfWork _unitOfWork;
+        public CategoryController(IUnitOfWork unitOfWork)
         {
-            _db = db;
+            
+            _unitOfWork = unitOfWork;
         }
         public IActionResult Index()
         {
-            List<Category> objList = _db.Categories.ToList();
+            List<Category> objList = _unitOfWork.Category.GetAll().ToList();
             return View(objList);
         }
 
@@ -30,8 +38,8 @@ namespace dotNetApp.Controllers
             }
             if(ModelState.IsValid)
             {
-                _db.Categories.Add(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Add(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index" , "Category");
             }   
@@ -48,7 +56,8 @@ namespace dotNetApp.Controllers
             }
             else
             {
-                Category cat = _db.Categories.Find(id);
+                Category cat = _unitOfWork.Category.Get(u => u.category_id == id);
+                
                 //USED IF THE ID IS NOT PRIMARY KEY
                 //Category? cat2 = _db.Categories.FirstOrDefault(u => u.category_id == id);
                 //Category? cat3 = _db.Categories.Where(u => u.category_id == id).FirstOrDefault();
@@ -70,8 +79,8 @@ namespace dotNetApp.Controllers
 
             if(ModelState.IsValid)
             {
-                _db.Categories.Update(obj);
-                _db.SaveChanges();
+                _unitOfWork.Category.Update(obj);
+                _unitOfWork.Save();
                 TempData["success"] = "Category modified successfully";
                 return RedirectToAction("Index" , "Category");
             }
@@ -82,13 +91,13 @@ namespace dotNetApp.Controllers
 
         public IActionResult Delete(int id)
         {
-            Category cat = _db.Categories.Find(id);
+            Category cat = _unitOfWork.Category.Get(u => u.category_id == id);
             if (cat == null)
             {
                 return NotFound();
-            }else {  
-                _db.Categories.Remove(cat);
-                _db.SaveChanges();
+            }else {
+                _unitOfWork.Category.Remove(cat);
+                _unitOfWork.Save();
                 TempData["success"] = "Category delete successfully";
                 return RedirectToAction("Index", "Category");
             }   

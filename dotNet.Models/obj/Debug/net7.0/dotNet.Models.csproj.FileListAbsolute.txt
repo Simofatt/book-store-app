@@ -1,0 +1,12 @@
+C:\Users\Simofatt\dotNet\dotNet.Models\bin\Debug\net7.0\dotNet.Models.deps.json
+C:\Users\Simofatt\dotNet\dotNet.Models\bin\Debug\net7.0\dotNet.Models.dll
+C:\Users\Simofatt\dotNet\dotNet.Models\bin\Debug\net7.0\dotNet.Models.pdb
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\dotNet.Models.csproj.AssemblyReference.cache
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\dotNet.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\dotNet.Models.AssemblyInfoInputs.cache
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\dotNet.Models.AssemblyInfo.cs
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\dotNet.Models.csproj.CoreCompileInputs.cache
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\dotNet.Models.dll
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\refint\dotNet.Models.dll
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\dotNet.Models.pdb
+C:\Users\Simofatt\dotNet\dotNet.Models\obj\Debug\net7.0\ref\dotNet.Models.dll
