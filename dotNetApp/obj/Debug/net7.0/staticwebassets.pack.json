@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\wwwroot\\images\\products\\13d52db5-16e2-42bf-8290-7810c3186f78.png",
+      "PackagePath": "staticwebassets\\images\\products\\13d52db5-16e2-42bf-8290-7810c3186f78.png"
+    },
+    {
       "Id": "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

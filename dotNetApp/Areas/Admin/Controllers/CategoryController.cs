@@ -12,8 +12,6 @@ namespace dotNetApp.Areas.Admin.Controllers
     {
         
         // private readonly ApplicationDbContext _db;
-
-
         //private readonly ICategoryRepository _categoryRepo;    // we are asking dependency injection to give us the object of ICategoryRepository
         private readonly IUnitOfWork _unitOfWork;
         public CategoryController(IUnitOfWork unitOfWork)
@@ -34,7 +32,7 @@ namespace dotNetApp.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(Category obj)
         {
-            if (obj.name == obj.description)
+            if (obj.name == obj.DisplayOrder.ToString())
             {
                 ModelState.AddModelError("description", "Description should be different from name");
             }

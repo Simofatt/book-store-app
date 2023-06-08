@@ -21,4 +21,8 @@
     <ProjectReference Include="..\DAO\dotNet.DAO.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\products\" />
+  </ItemGroup>
+
 </Project>

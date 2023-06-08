@@ -13,14 +13,15 @@ namespace dotNet.DAO.Data
         }
 
         public DbSet<Category> Categories {get; set;}
+        public DbSet<Product> Products { get; set;} 
 
         //SEEDERS
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Category>().HasData(
-                new Category { category_id = 1, name = "Fruits", description = "All fruits" },
-                new Category { category_id = 2, name = "Electronics", description = "All electronics" },
-                new Category { category_id = 3, name = "Clothes", description = "All clothes" }
+                new Category { category_id = 1, name = "Fruits", DisplayOrder = 1 },
+                new Category { category_id = 2, name = "Electronics", DisplayOrder = 2 },
+                new Category { category_id = 3, name = "Clothes", DisplayOrder = 3 }
                 );
 
             modelBuilder.Entity<Product>().HasData(
@@ -35,7 +36,9 @@ namespace dotNet.DAO.Data
                       Price = 90,
                       Price50 = 85,
                       Price100 = 80,
-                      
+                      CategoryId = 1,
+                      ImgUrl = ""
+
                   },
                   new Product
                   {
@@ -48,7 +51,9 @@ namespace dotNet.DAO.Data
                       Price = 30,
                       Price50 = 25,
                       Price100 = 20,
-                      
+                      CategoryId = 1,
+                      ImgUrl = ""
+
                   },
                   new Product
                   {
@@ -61,7 +66,9 @@ namespace dotNet.DAO.Data
                       Price = 50,
                       Price50 = 40,
                       Price100 = 35,
-                     
+                      CategoryId = 2,
+                      ImgUrl = ""
+
                   },
                   new Product
                   {
@@ -74,7 +81,9 @@ namespace dotNet.DAO.Data
                       Price = 65,
                       Price50 = 60,
                       Price100 = 55,
-                      
+                      CategoryId = 2,
+                      ImgUrl = ""
+
                   },
                   new Product
                   {
@@ -87,7 +96,9 @@ namespace dotNet.DAO.Data
                       Price = 27,
                       Price50 = 25,
                       Price100 = 20,
-                     
+                      CategoryId = 3,
+                      ImgUrl = ""
+
                   },
                   new Product
                   {
@@ -100,14 +111,16 @@ namespace dotNet.DAO.Data
                       Price = 23,
                       Price50 = 22,
                       Price100 = 20,
-                     
+                      CategoryId = 3,
+                      ImgUrl =""
+
                   }
                   );
         }
 
-        public DbSet<Product> Products { get; set; }
+        
 
-        //SEEDERS
+        
    
            
         

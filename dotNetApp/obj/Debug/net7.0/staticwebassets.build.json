@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "JQPiNMsx0LMlApddDA7R0aecYIGuxsLplBZmD4VqW/U=",
+  "Hash": "8gzZGFRj2iHH/vxIDcvOMsvwkc/aAEfrL7o/dTPy68Q=",
   "Source": "dotNetApp",
   "BasePath": "_content/dotNetApp",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\wwwroot\\images\\products\\13d52db5-16e2-42bf-8290-7810c3186f78.png",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/13d52db5-16e2-42bf-8290-7810c3186f78.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\13d52db5-16e2-42bf-8290-7810c3186f78.png"
     },
     {
       "Identity": "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\wwwroot\\js\\site.js",

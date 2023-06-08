@@ -7,10 +7,10 @@ namespace dotNet.Models
         [Key]
         public int category_id { get; set; }
         [Required]
-        [MaxLength(10)]
+        [MaxLength(30)]
         public string name { get; set; }
-        [MaxLength(20)]
-        public string description { get; set; }
+        [Range(1,50)]
+        public int DisplayOrder { get; set; }
 
 
     }
