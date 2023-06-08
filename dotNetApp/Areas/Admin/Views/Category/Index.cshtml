@@ -28,7 +28,7 @@
         @foreach(var obj in Model.OrderBy(u=>u.category_id) ) { 
             <tr>
                 <td>@obj.name</td>
-                <td>@obj.description</td>
+                <td>@obj.DisplayOrder</td>
                  
 <td>
                     <a asp-controller="Category" asp-action="Edit" asp-route-id="@obj.category_id" class="btn btn-primary"> <i class="bi bi-pencil-square"></i>Edit</a>

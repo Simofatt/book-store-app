@@ -578,3 +578,5 @@ C:\Users\Simofatt\dotNet\dotNetApp\bin\Debug\net7.0\dotNet.DAO.pdb
 C:\Users\Simofatt\dotNet\dotNetApp\bin\Debug\net7.0\dotNet.Models.pdb
 C:\Users\Simofatt\dotNet\dotNetApp\bin\Debug\net7.0\dotNet.Utility.pdb
 C:\Users\Simofatt\dotNet\dotNetApp\obj\Debug\net7.0\dotNetApp.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Simofatt\dotNet\dotNetApp\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Simofatt\dotNet\dotNetApp\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
