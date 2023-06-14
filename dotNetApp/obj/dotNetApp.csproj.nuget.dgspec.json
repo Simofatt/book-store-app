@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\dotNetApp.csproj": {}
+    "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\dotNetApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simofatt\\dotNet\\DAO\\dotNet.DAO.csproj": {
+    "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet\\DAO\\dotNet.DAO.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj",
         "projectName": "dotNet.DAO",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet\\DAO\\dotNet.DAO.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet\\DAO\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Simofatt\\dotNet\\dotNet.Models\\dotNet.Models.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Models\\dotNet.Models.csproj"
+              "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj"
               },
-              "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj"
+              "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.5, )"
@@ -82,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\dotNet\\dotNet.Models\\dotNet.Models.csproj": {
+    "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet\\dotNet.Models\\dotNet.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj",
         "projectName": "dotNet.Models",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Models\\dotNet.Models.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Models\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,6 +125,10 @@
             "Microsoft.AspNetCore.Mvc.ViewFeatures": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
@@ -143,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj": {
+    "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
         "projectName": "dotNet.Utility",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -178,6 +186,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -198,14 +212,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\dotNetApp.csproj": {
+    "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\dotNetApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\dotNetApp.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\dotNetApp.csproj",
         "projectName": "dotNetApp",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\dotNetApp.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\dotNetApp.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet\\dotNetApp\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -223,8 +237,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Simofatt\\dotNet\\DAO\\dotNet.DAO.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\dotNet\\DAO\\dotNet.DAO.csproj"
+              "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj"
               }
             }
           }
@@ -239,6 +253,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
               "version": "[7.0.5, )"

@@ -10,9 +10,9 @@ namespace dotNet.DAO.Repository.IRepository
     public interface IRepository<T> where T : class 
     {
         //T - Category
-        IEnumerable<T> GetAll();
+        IEnumerable<T> GetAll(string? includePropreties =null);
 
-        T Get(Expression<Func<T, bool>> filter);
+        T Get(Expression<Func<T, bool>> filter, string? includePropreties = null);
         void Add(T entity);
         void Remove(T entity);
         void RemoveRange(IEnumerable<T> entity);

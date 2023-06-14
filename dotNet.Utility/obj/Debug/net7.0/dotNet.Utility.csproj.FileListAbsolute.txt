@@ -10,3 +10,15 @@ C:\Users\Simofatt\dotNet\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.dll
 C:\Users\Simofatt\dotNet\dotNet.Utility\obj\Debug\net7.0\refint\dotNet.Utility.dll
 C:\Users\Simofatt\dotNet\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.pdb
 C:\Users\Simofatt\dotNet\dotNet.Utility\obj\Debug\net7.0\ref\dotNet.Utility.dll
+C:\Users\Simofatt\dotNet2\dotNet.Utility\bin\Debug\net7.0\dotNet.Utility.deps.json
+C:\Users\Simofatt\dotNet2\dotNet.Utility\bin\Debug\net7.0\dotNet.Utility.dll
+C:\Users\Simofatt\dotNet2\dotNet.Utility\bin\Debug\net7.0\dotNet.Utility.pdb
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.csproj.AssemblyReference.cache
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.AssemblyInfoInputs.cache
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.AssemblyInfo.cs
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.dll
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\refint\dotNet.Utility.dll
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\dotNet.Utility.pdb
+C:\Users\Simofatt\dotNet2\dotNet.Utility\obj\Debug\net7.0\ref\dotNet.Utility.dll

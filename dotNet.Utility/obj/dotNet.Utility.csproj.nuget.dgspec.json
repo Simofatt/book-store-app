@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj": {}
+    "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj": {
+    "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
         "projectName": "dotNet.Utility",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

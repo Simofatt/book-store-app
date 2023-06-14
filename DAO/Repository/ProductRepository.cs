@@ -19,8 +19,28 @@ namespace dotNet.DAO.Repository
         }
         public void Update(Product pro)
         {
+            var objFromDb = _db.Products.FirstOrDefault(u =>u.Id ==pro.Id);
+            if(objFromDb !=null)
+            {
+                
+                objFromDb.Title = pro.Title;
+                objFromDb.Description = pro.Description;    
+                objFromDb.ISBN = pro.ISBN;
+                objFromDb.Author = pro.Author;  
+                objFromDb.ListPrice = pro.ListPrice;    
+                objFromDb.Price = pro.Price;
+                objFromDb.Price50 = pro.Price50;
+                objFromDb.Price100 = pro.Price100;
+                objFromDb.CategoryId = pro.CategoryId;
 
-          _db.Update(pro);
+                if(pro.ImgUrl !=null)
+                {
+                    objFromDb.ImgUrl = pro.ImgUrl;
+                }
+
+            }
+
+          //_db.Update(pro);
         }
 
     }

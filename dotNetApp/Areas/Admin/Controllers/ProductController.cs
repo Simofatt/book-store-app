@@ -8,11 +8,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Collections.Generic;
 using dotNet.Models.ViewModels;
 using Microsoft.AspNetCore.Http;
-
+using dotNet.Utility;
+using Microsoft.AspNetCore.Authorization;
 
 namespace dotNetApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles=SD.Role_Admin)]
     public class ProductController : Controller
     {
         
@@ -28,17 +30,12 @@ namespace dotNetApp.Areas.Admin.Controllers
         }
         public IActionResult Index()
         {
-            List<Product> objList = _unitOfWork.Product.GetAll().ToList();
-
-          
-             
+            List<Product> objList = _unitOfWork.Product.GetAll("Category").ToList();
             return View(objList);
         }
 
         public IActionResult Upsert(int? Id)
         {
-            
-
             //C# 9.0  syntax  for creating object 
             //Initialize the object and its properties in one line of code
             ProductVM product = new()
@@ -78,14 +75,32 @@ namespace dotNetApp.Areas.Admin.Controllers
                     string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
                    // string path = Path.Combine(_webHostEnvironment.WebRootPath, @"/images/products");
                     string path = Path.Combine(_webHostEnvironment.WebRootPath, "images", "products");
+                  
+                   
+                    //DELETE THE OLD IMAGE
+                    if(!string.IsNullOrEmpty(obj.Product.ImgUrl)) {
+                        var oldPath = Path.Combine(_webHostEnvironment.WebRootPath, obj.Product.ImgUrl);
+
+                        if (System.IO.File.Exists(oldPath))
+                        {
+                            System.IO.File.Delete(oldPath);
+                        }
+                    }
                     using (var fileStream = new FileStream(Path.Combine(path, fileName), FileMode.Create))
                     {
                         file.CopyTo(fileStream);
                     }
                     obj.Product.ImgUrl = "/images/products/" + fileName;
                 }
+                if(obj.Product.Id!=0)
+                {
+                    _unitOfWork.Product.Update(obj.Product);
+                }else
+                {
+
+                    _unitOfWork.Product.Add(obj.Product);
+                }
                     
-                _unitOfWork.Product.Add(obj.Product);
                 _unitOfWork.Save();
                 TempData["success"] = "Product created successfully";
                 return RedirectToAction("Index", "Product");
@@ -136,7 +151,7 @@ namespace dotNetApp.Areas.Admin.Controllers
             return View();
 
         }
-
+        /*
         public IActionResult Delete(int id)
         {
             Product product = _unitOfWork.Product.Get(u => u.Id == id);
@@ -154,7 +169,37 @@ namespace dotNetApp.Areas.Admin.Controllers
 
 
 
+        }*/
+
+        #region api CALLS
+        [HttpGet]
+        public IActionResult getAll()
+        {
+            List<Product> objList = _unitOfWork.Product.GetAll("Category").ToList(); 
+            return Json (new  { data = objList}) ;
         }
+
+        [HttpDelete]
+        public IActionResult Delete(int? id)
+        {
+            Product product = _unitOfWork.Product.Get(u => u.Id == id);
+            if (product == null)
+            {
+                return Json(new { success=false , message = "Product not found" });
+            }
+            else
+            {
+                _unitOfWork.Product.Remove(product);
+                _unitOfWork.Save();
+               
+                return Json(new { success = true, message = "Product delete successfully" });
+            }
+
+
+
+        }
+
+
     }
 
 
@@ -162,3 +207,4 @@ namespace dotNetApp.Areas.Admin.Controllers
 
 
 
+#endregion API calls

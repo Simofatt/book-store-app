@@ -1,4 +1,5 @@
-﻿using dotNet.Models;
+﻿using dotNet.DAO.Repository.IRepository;
+using dotNet.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -9,15 +10,23 @@ namespace dotNetApp.Areas.Customer.Controllers
     {
          
         private readonly ILogger<HomeController> _logger;
+        private readonly IUnitOfWork _unitOfWork; 
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, IUnitOfWork unitOfWork)
         {
             _logger = logger;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
-            return View();
+            IEnumerable<Product> products = _unitOfWork.Product.GetAll("Category").ToList();
+            return View(products);
+        }
+      public IActionResult Detail(int? id)
+        {
+            Product product = _unitOfWork.Product.Get(p => p.Id == id, "Category");
+            return View(product);
         }
 
         public IActionResult Privacy()

@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "ZVRim8izBsrEYepRxnP5XuknyhF/KiFUJz3rvGPQDSYae9rvXHoGoge5wPig6gEu0zkUAt43J1gIhJ0SuWJZNw==",
+  "dgSpecHash": "P42kXlWiJnLIV1PzHYAVTJVqRDX0lQfdQNUI8wVfgLs+woEF+r00mXIz0toXPp+OgRYfLeDubd9BjflhSOK65Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\dotNet\\dotNet.Utility\\dotNet.Utility.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.5\\microsoft.aspnetcore.cryptography.keyderivation.7.0.5.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.5\\microsoft.aspnetcore.identity.ui.7.0.5.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\7.0.5\\microsoft.extensions.fileproviders.embedded.7.0.5.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.identity.core\\7.0.5\\microsoft.extensions.identity.core.7.0.5.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.identity.stores\\7.0.5\\microsoft.extensions.identity.stores.7.0.5.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
+    "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

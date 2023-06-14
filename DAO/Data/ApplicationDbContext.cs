@@ -1,23 +1,27 @@
 ﻿
 using dotNet.Models;
-
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace dotNet.DAO.Data
 {
-    public class ApplicationDbContext :DbContext
+    public class ApplicationDbContext : IdentityDbContext<IdentityUser> //dbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
             
         }
 
+        //ENTITIES MAPPER
         public DbSet<Category> Categories {get; set;}
         public DbSet<Product> Products { get; set;} 
-
+        public DbSet<ApplicationUser> ApplicationUsers { get; set;}
         //SEEDERS
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Category>().HasData(
                 new Category { category_id = 1, name = "Fruits", DisplayOrder = 1 },
                 new Category { category_id = 2, name = "Electronics", DisplayOrder = 2 },

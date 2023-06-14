@@ -4,10 +4,15 @@ using dotNet.Models;
 using Microsoft.AspNetCore.Mvc;
 using dotNet.DAO.Repository.IRepository;
 using dotNet.DAO.Repository;
+using dotNet.Utility;
+using Microsoft.AspNetCore.Authorization;
+using System.Data;
 
 namespace dotNetApp.Areas.Admin.Controllers
 {
     [Area("Admin")]
+
+    [Authorize(Roles = SD.Role_Admin)]
     public class CategoryController : Controller
     {
         
@@ -103,10 +108,10 @@ namespace dotNetApp.Areas.Admin.Controllers
                 TempData["success"] = "Category delete successfully";
                 return RedirectToAction("Index", "Category");
             }
-
-
-
         }
+
+     
+
     }
 
 

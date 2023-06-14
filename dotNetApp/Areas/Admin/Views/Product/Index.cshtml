@@ -30,25 +30,6 @@
                     <th></th>
                 </tr>
             </thead>
-            <tbody>
-                @foreach (var obj in Model.OrderBy(u => u.Id))
-                {
-                    <tr>
-                        <td>@obj.Title</td>
-                        <td>@obj.ISBN</td>
-                        <td>@obj.Price</td>
-                        <td>@obj.Author</td>
-                        <td>@obj.CategoryId</td>
-
-
-                        <td>
-                            <a asp-controller="Product" asp-action="Upsert" asp-route-id="@obj.Id" class="btn btn-primary"> <i class="bi bi-pencil-square"></i>Edit</a>
-                            <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger"> <i class="bi bi-trash"></i>Delete</a>
-
-
-                    </tr>
-                }
-            </tbody>
         </table>
 
     </div>
