@@ -8,6 +8,8 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using dotNet.Models;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
+
 namespace dotNet.DAO.Repository
 {
     public class Repository<T> : IRepository<T> where T : class
@@ -28,8 +30,8 @@ namespace dotNet.DAO.Repository
 
         public T Get(Expression<Func<T, bool>> filter,string? includePropreties = null)
         {
-            IQueryable<T> query = dbSet;
-            query = query.Where(filter);
+          
+             IQueryable<T> query = dbSet.Where(filter);
             if (!string.IsNullOrEmpty(includePropreties))
             {
                 foreach (var includeProp in  includePropreties.Split(new char[] { ',' },StringSplitOptions.RemoveEmptyEntries)) {
@@ -37,7 +39,9 @@ namespace dotNet.DAO.Repository
                     
                 }
             }
-            return query.FirstOrDefault();
+           
+                return query.FirstOrDefault();
+            
         }
 
 
@@ -52,7 +56,7 @@ namespace dotNet.DAO.Repository
                 }
                 
             }
-            return query.ToList();
+            return query;
         }
 
         

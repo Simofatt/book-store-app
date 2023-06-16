@@ -61,7 +61,7 @@ namespace dotNetApp.Areas.Admin.Controllers
             }
             else
             {
-                Category cat = _unitOfWork.Category.Get(u => u.category_id == id);
+                Category cat = _unitOfWork.Category.Get(c => c.category_id == id);
 
                 //USED IF THE ID IS NOT PRIMARY KEY
                 //Category? cat2 = _db.Categories.FirstOrDefault(u => u.category_id == id);

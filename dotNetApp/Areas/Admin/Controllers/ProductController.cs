@@ -25,13 +25,13 @@ namespace dotNetApp.Areas.Admin.Controllers
         public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
 
-            _unitOfWork = unitOfWork;
+            _unitOfWork = unitOfWork; 
             _webHostEnvironment = webHostEnvironment;
         }
         public IActionResult Index()
         {
-            List<Product> objList = _unitOfWork.Product.GetAll("Category").ToList();
-            return View(objList);
+          
+            return View();
         }
 
         public IActionResult Upsert(int? Id)
@@ -68,8 +68,6 @@ namespace dotNetApp.Areas.Admin.Controllers
           
             if (ModelState.IsValid)
             {
-                
-                
                 if (file != null)
                 {
                     string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
@@ -95,15 +93,18 @@ namespace dotNetApp.Areas.Admin.Controllers
                 if(obj.Product.Id!=0)
                 {
                     _unitOfWork.Product.Update(obj.Product);
-                }else
+                    TempData["success"] = "Product updated successfully";
+                }
+                else
                 {
-
                     _unitOfWork.Product.Add(obj.Product);
+                    TempData["success"] = "Product created successfully";
                 }
                     
                 _unitOfWork.Save();
-                TempData["success"] = "Product created successfully";
+               
                 return RedirectToAction("Index", "Product");
+
                 }
             
           
@@ -121,9 +122,7 @@ namespace dotNetApp.Areas.Admin.Controllers
             {
                 Product product = _unitOfWork.Product.Get(u => u.Id == id);
 
-                //USED IF THE ID IS NOT PRIMARY KEY
-                //Product? cat2 = _db.Categories.FirstOrDefault(u => u.category_id == id);
-                //Product? cat3 = _db.Categories.Where(u => u.category_id == id).FirstOrDefault();
+              
 
 
                 if (product == null)
@@ -151,27 +150,9 @@ namespace dotNetApp.Areas.Admin.Controllers
             return View();
 
         }
-        /*
-        public IActionResult Delete(int id)
-        {
-            Product product = _unitOfWork.Product.Get(u => u.Id == id);
-            if (product == null)
-            {
-                return NotFound();
-            }
-            else
-            {
-                _unitOfWork.Product.Remove(product);
-                _unitOfWork.Save();
-                TempData["success"] = "Product delete successfully";
-                return RedirectToAction("Index", "Product");
-            }
+     
 
-
-
-        }*/
-
-        #region api CALLS
+        #region api Calls
         [HttpGet]
         public IActionResult getAll()
         {
