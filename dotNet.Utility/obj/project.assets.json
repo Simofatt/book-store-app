@@ -762,11 +762,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
+      "projectUniqueName": "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\dotNet.Utility.csproj",
       "projectName": "dotNet.Utility",
-      "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
+      "projectPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\dotNet.Utility.csproj",
       "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\obj\\",
+      "outputPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",

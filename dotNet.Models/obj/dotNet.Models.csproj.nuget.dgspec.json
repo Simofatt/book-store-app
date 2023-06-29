@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj": {}
+    "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj": {
+    "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj",
         "projectName": "dotNet.Models",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",

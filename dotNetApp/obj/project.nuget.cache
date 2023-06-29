@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EJ4tfveQW2N0YZdOBvHoW96GOYn0HAG8mfWxSY5vOHFD69zBHy2RdBPF/nOouUrABWMulo2VY1x0dvbr5Vk/9A==",
+  "dgSpecHash": "M/MUpV1lKYCnla7vLZS90JNhCS7hRM5Asym3JX4pPRvLXwrgh8JUTADO+M51/6iKdOJRUX/O5Z6xzLZUy5fJDA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\dotNetApp.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\dotNetApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

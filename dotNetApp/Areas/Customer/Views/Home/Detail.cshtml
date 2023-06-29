@@ -1,7 +1,14 @@
 ﻿@model Product
-<form method="post">
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<IdentityUser> _userManager;
+@{
+    var UserId = _userManager.GetUserId(User);
+}
+<form method="post" asp-controller="Order" asp-action="Add">
     <div class="card shadow border-0 mt-4">
         <div class="card-header bg-secondary bg-gradient text-light py-4">
+            <input type ="hidden" name ="ProductId" value="@Model.Id"/>
+            <input type="hidden" name="UserId" value="@UserId" />
             <div class="row">
                 <div class="col-12 text-center">
                     <h3 class="text-white text-uppercase">@Model.Title</h3>
@@ -84,10 +91,19 @@
                         </div>
                         <div class="row">
                             <div class="col-12 col-md-6 pb-1">
-                                <button type="submit" disabled
-                                        class="btn btn-primary bg-gradient  w-100 py-2 text-uppercase fw-semibold">
-                                    Add to Cart (Comming Soon...)
-                                </button>
+                                @if (!User.IsInRole(SD.Role_Admin))
+                                {
+                                    <button type="submit" 
+                                    class="btn btn-primary bg-gradient  w-100 py-2 text-uppercase fw-semibold">
+                                        Add to Cart 
+                                    </button>
+                                }else
+                                {
+                                    <button type="submit" disabled
+                                            class="btn btn-primary bg-gradient  w-100 py-2 text-uppercase fw-semibold">
+                                        Add to Cart
+                                    </button>
+                                }
                             </div>
                         </div>
                     </div>

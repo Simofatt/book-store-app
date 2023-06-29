@@ -80,15 +80,15 @@ namespace dotNetApp.Areas.Identity.Pages.Account
             public string ConfirmPassword { get; set; }
             
             //TO DISPLAY ROLE OPTIONS IN THE REGISTER
-            public string? Role { get; set; }
+            public string Role { get; set; }
             [ValidateNever] 
             public IEnumerable<SelectListItem> RoleList { get; set; }
             [Required]
             public string Name { get; set; }
-            public string? StreetAddress { get; set; }
-            public string? City { get; set; }
-            public string? State { get; set; }
-            public string? PostalCode { get; set; }
+            public string StreetAddress { get; set; }
+            public string City { get; set; }
+            public string State { get; set; }
+            public string PostalCode { get; set; }
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
@@ -170,7 +170,8 @@ namespace dotNetApp.Areas.Identity.Pages.Account
                     else
                     {
                         await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                         return LocalRedirect("/Identity/Account/Login");
+                        
                     }
                 }
                 foreach (var error in result.Errors)

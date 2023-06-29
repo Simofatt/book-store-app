@@ -12279,11 +12279,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\dotNetApp.csproj",
+      "projectUniqueName": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\dotNetApp.csproj",
       "projectName": "dotNetApp",
-      "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\dotNetApp.csproj",
+      "projectPath": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\dotNetApp.csproj",
       "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\obj\\",
+      "outputPath": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12301,8 +12301,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj": {
-              "projectPath": "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj"
+            "C:\\Users\\Simofatt\\BookStore\\DAO\\dotNet.DAO.csproj": {
+              "projectPath": "C:\\Users\\Simofatt\\BookStore\\DAO\\dotNet.DAO.csproj"
             }
           }
         }

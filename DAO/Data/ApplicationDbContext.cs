@@ -17,18 +17,21 @@ namespace dotNet.DAO.Data
         public DbSet<Category> Categories {get; set;}
         public DbSet<Product> Products { get; set;} 
         public DbSet<ApplicationUser> ApplicationUsers { get; set;}
+        public DbSet<Order> Orders { get; set;}
         //SEEDERS
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Category>().HasData(
+            
+                modelBuilder.Entity<Category>().HasData(
                 new Category { category_id = 1, name = "Fruits", DisplayOrder = 1 },
                 new Category { category_id = 2, name = "Electronics", DisplayOrder = 2 },
                 new Category { category_id = 3, name = "Clothes", DisplayOrder = 3 }
                 );
+            
+           
 
-            modelBuilder.Entity<Product>().HasData(
+                modelBuilder.Entity<Product>().HasData(
                   new Product
                   {
                       Id = 1,
@@ -116,12 +119,12 @@ namespace dotNet.DAO.Data
                       Price50 = 22,
                       Price100 = 20,
                       CategoryId = 3,
-                      ImgUrl =""
+                      ImgUrl = ""
 
                   }
                   );
+            
         }
-
         
 
         

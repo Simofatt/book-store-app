@@ -35,7 +35,7 @@
                         <span asp-validation-for="Input.Name" class="text-danger"></span>
                     </div>
                     <div class="form-floating mb-3 col-md-6">
-                        <input asp-for="Input.PhoneNumber" class="form-control" placeholder="name@example.com" />
+                        <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Enter your phone number" />
                         <label asp-for="Input.PhoneNumber" class="ms-2 text-muted">Phone Number</label>
                         <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
                     </div>
@@ -70,15 +70,14 @@
                         <label asp-for="Input.PostalCode" class="ms-2 text-muted">Postal Code</label>
                         <span asp-validation-for="Input.PostalCode" class="text-danger"></span>
                     </div>
-                    @if (User.IsInRole(SD.Role_Admin))
-                    {
+                  
                         <div class="form-floating mb-3 col-md-6">
                             <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select">
                                 <option disabled selected>-Select Role-</option>
                             </select>
                         </div>
                        
-                    }
+                    
                     <div class="col-12">
                         <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
                     </div>

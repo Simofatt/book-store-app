@@ -1,5 +1,6 @@
 ﻿using dotNet.DAO.Repository.IRepository;
 using dotNet.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -25,7 +26,8 @@ namespace dotNetApp.Areas.Customer.Controllers
             IEnumerable<Product> products = _unitOfWork.Product.GetAll("Category").ToList();
             return View(products);
         }
-      public IActionResult Detail(int? id)
+        [Authorize]
+        public IActionResult Detail(int? id)
         {
             Product product = _unitOfWork.Product.Get(p => p.Id == id, "Category");
             return View(product);

@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dotNet.DAO
-build_property.ProjectDir = C:\Users\Simofatt\dotNet2\DAO\
+build_property.ProjectDir = C:\Users\Simofatt\BookStore\DAO\

@@ -9,249 +9,257 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = dotNetApp
 build_property.RootNamespace = dotNetApp
-build_property.ProjectDir = C:\Users\Simofatt\dotNet2\dotNetApp\
+build_property.ProjectDir = C:\Users\Simofatt\BookStore\dotNetApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = true
-build_property.MSBuildProjectDirectory = C:\Users\Simofatt\dotNet2\dotNetApp
+build_property.MSBuildProjectDirectory = C:\Users\Simofatt\BookStore\dotNetApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Admin/Views/Category/Create.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Admin/Views/Category/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Admin/Views/Category/Edit.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Admin/Views/Category/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Admin/Views/Category/Index.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Admin/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Admin/Views/Product/Index.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Admin/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Admin/Views/Product/Upsert.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Admin/Views/Product/Upsert.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdFxVcHNlcnQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Admin/Views/_ViewImports.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Admin/Views/_ViewStart.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Customer/Views/Home/Detail.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Customer/Views/Home/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Customer/Views/Home/Index.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Customer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Customer/Views/Home/Privacy.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Customer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Customer/Views/_ViewImports.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Customer/Views/Order/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcT3JkZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Customer/Views/Order/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcT3JkZXJcT3JkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Customer/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Customer/Views/_ViewStart.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Customer/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQ3VzdG9tZXJcVmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Manage/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/Error.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Views/Shared/Error.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Views/Shared/Notification.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Views/Shared/Notification.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE5vdGlmaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Views/_ViewImports.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Views/_ViewStart.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Simofatt/dotNet2/dotNetApp/Views/Shared/_Layout.cshtml]
+[C:/Users/Simofatt/BookStore/dotNetApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yfum5lj1y3

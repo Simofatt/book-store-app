@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj": {}
+    "C:\\Users\\Simofatt\\BookStore\\DAO\\dotNet.DAO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj": {
+    "C:\\Users\\Simofatt\\BookStore\\DAO\\dotNet.DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\BookStore\\DAO\\dotNet.DAO.csproj",
         "projectName": "dotNet.DAO",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\BookStore\\DAO\\dotNet.DAO.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\DAO\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\BookStore\\DAO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj"
+              "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj"
               },
-              "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj": {
-                "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj"
+              "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\dotNet.Utility.csproj": {
+                "projectPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\dotNet.Utility.csproj"
               }
             }
           }
@@ -86,14 +86,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj": {
+    "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj",
         "projectName": "dotNet.Models",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\dotNet.Models.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\dotNet.Models.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Models\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,14 +151,14 @@
         }
       }
     },
-    "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj": {
+    "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\dotNet.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\dotNet.Utility.csproj",
         "projectName": "dotNet.Utility",
-        "projectPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
+        "projectPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\dotNet.Utility.csproj",
         "packagesPath": "C:\\Users\\Simofatt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\obj\\",
+        "outputPath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Simofatt\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -21,8 +21,7 @@ namespace dotNet.DAO.Repository
         {
             var objFromDb = _db.Products.FirstOrDefault(u =>u.Id ==pro.Id);
             if(objFromDb !=null)
-            {
-                
+            { 
                 objFromDb.Title = pro.Title;
                 objFromDb.Description = pro.Description;    
                 objFromDb.ISBN = pro.ISBN;

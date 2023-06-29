@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eLmcKXvDRJJfQHYC4Q1t7d9mymslew1Mgi69d+bPB9lHa+hI90oJW12Z5PblgmDBK5Ni5a3gC53xp4IpTrf0yw==",
+  "dgSpecHash": "XTD8UwJkytxPogfdGix3GXi12NYfEz0s+9dBFN9jGIwHmu+AOuMn9sJQiuY/euW5tbegXCKzxv2dLJYgIOJV9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\dotNet2\\DAO\\dotNet.DAO.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\BookStore\\DAO\\dotNet.DAO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

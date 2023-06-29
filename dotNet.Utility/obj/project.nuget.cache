@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "P42kXlWiJnLIV1PzHYAVTJVqRDX0lQfdQNUI8wVfgLs+woEF+r00mXIz0toXPp+OgRYfLeDubd9BjflhSOK65Q==",
+  "dgSpecHash": "kk6V4EJbQ4aRnl3xpkMGFFodZzH5yAGQazxFYkTwvEJB8BEgCu/Ys+BMTvXT16EuWq0Qrn/rebAYzy0JAJ9F2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Simofatt\\dotNet2\\dotNet.Utility\\dotNet.Utility.csproj",
+  "projectFilePath": "C:\\Users\\Simofatt\\BookStore\\dotNet.Utility\\dotNet.Utility.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\7.0.5\\microsoft.aspnetcore.cryptography.internal.7.0.5.nupkg.sha512",
     "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.5\\microsoft.aspnetcore.cryptography.keyderivation.7.0.5.nupkg.sha512",

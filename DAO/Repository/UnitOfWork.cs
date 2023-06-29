@@ -13,12 +13,14 @@ namespace dotNet.DAO.Repository
         private readonly ApplicationDbContext _db;
         public ICategoryRepository Category { set;  get; }
         public IProductRepository Product { set; get; }
+        public IOrderRepository Order { set; get; } 
 
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             Category = new CategoryRepository(_db);
             Product = new ProductRepository(_db);   
+            Order = new OrderRepository(_db);   
 
         }
 

@@ -11,6 +11,7 @@ namespace dotNet.DAO.Repository.IRepository
     {
         ICategoryRepository Category {  get;}
         IProductRepository Product { get; }
+        IOrderRepository Order { get; }   
        
 
         void Save();

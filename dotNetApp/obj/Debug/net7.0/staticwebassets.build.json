@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "oTVUkXR2n4DFAw0EkhtTN7l4Y8N0QypvXrM7kWUu8ZI=",
+  "Hash": "y9zjnA+6rzh/coyyDwUo9JBMDYttl6qf40Czrq6Pc5k=",
   "Source": "dotNetApp",
   "BasePath": "_content/dotNetApp",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "dotNetApp\\wwwroot",
       "Source": "dotNetApp",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\Simofatt\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.5\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\dotNetApp.styles.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\dotNetApp.styles.css",
       "SourceId": "dotNetApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "dotNetApp.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\dotNetApp.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\bundle\\dotNetApp.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\dotNetApp.bundle.scp.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\dotNetApp.bundle.scp.css",
       "SourceId": "dotNetApp",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "dotNetApp.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\dotNetApp.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\dotNetApp.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\css\\site.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\favicon.ico",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1105,10 +1105,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\19478e46-74a7-4c84-b917-3559bc48ea92.png",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\18883259-bfb4-4edc-b021-9454ff655916.jpg",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/18883259-bfb4-4edc-b021-9454ff655916.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\18883259-bfb4-4edc-b021-9454ff655916.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\19478e46-74a7-4c84-b917-3559bc48ea92.png",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/19478e46-74a7-4c84-b917-3559bc48ea92.png",
       "AssetKind": "All",
@@ -1122,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\19478e46-74a7-4c84-b917-3559bc48ea92.png"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\1f108164-46da-4d2c-a739-1fbceb8362c9.jpg",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\1f108164-46da-4d2c-a739-1fbceb8362c9.jpg",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/1f108164-46da-4d2c-a739-1fbceb8362c9.jpg",
       "AssetKind": "All",
@@ -1139,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\1f108164-46da-4d2c-a739-1fbceb8362c9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\22badd92-13ec-4c57-b58d-9563092d32c3.jpg",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\22badd92-13ec-4c57-b58d-9563092d32c3.jpg",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/22badd92-13ec-4c57-b58d-9563092d32c3.jpg",
       "AssetKind": "All",
@@ -1156,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\22badd92-13ec-4c57-b58d-9563092d32c3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\364193f2-ec23-4d6a-9f9f-0936663c0865.png",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\364193f2-ec23-4d6a-9f9f-0936663c0865.png",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/364193f2-ec23-4d6a-9f9f-0936663c0865.png",
       "AssetKind": "All",
@@ -1173,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\364193f2-ec23-4d6a-9f9f-0936663c0865.png"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\39865040-a077-4925-8a21-f0a0121e24d8.png",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\39865040-a077-4925-8a21-f0a0121e24d8.png",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/39865040-a077-4925-8a21-f0a0121e24d8.png",
       "AssetKind": "All",
@@ -1190,10 +1207,44 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\39865040-a077-4925-8a21-f0a0121e24d8.png"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\7beecb1e-2ca6-495e-9a17-d5a487e86ed4.jpg",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\3f1feea2-fdbc-457c-bdbf-4e1eaccd4674.jpg",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/3f1feea2-fdbc-457c-bdbf-4e1eaccd4674.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\3f1feea2-fdbc-457c-bdbf-4e1eaccd4674.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\47d0afd4-df47-4555-9b38-69757763f19c.jpg",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/47d0afd4-df47-4555-9b38-69757763f19c.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\47d0afd4-df47-4555-9b38-69757763f19c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\7beecb1e-2ca6-495e-9a17-d5a487e86ed4.jpg",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/7beecb1e-2ca6-495e-9a17-d5a487e86ed4.jpg",
       "AssetKind": "All",
@@ -1207,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\7beecb1e-2ca6-495e-9a17-d5a487e86ed4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\7e499dff-e83a-41b1-b3ae-2d60d87ca158.png",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\7e499dff-e83a-41b1-b3ae-2d60d87ca158.png",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/7e499dff-e83a-41b1-b3ae-2d60d87ca158.png",
       "AssetKind": "All",
@@ -1224,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\7e499dff-e83a-41b1-b3ae-2d60d87ca158.png"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\8a543003-9bfa-47d2-8438-73390333e166.jpg",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\8a543003-9bfa-47d2-8438-73390333e166.jpg",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/8a543003-9bfa-47d2-8438-73390333e166.jpg",
       "AssetKind": "All",
@@ -1241,10 +1292,27 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\8a543003-9bfa-47d2-8438-73390333e166.jpg"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\a1ccf685-cb4c-4fe0-b5a7-3ba510138c92.jpg",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\8fcad451-62db-43b7-a099-4b41d2264fad.jpg",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/8fcad451-62db-43b7-a099-4b41d2264fad.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\8fcad451-62db-43b7-a099-4b41d2264fad.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\a1ccf685-cb4c-4fe0-b5a7-3ba510138c92.jpg",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/a1ccf685-cb4c-4fe0-b5a7-3ba510138c92.jpg",
       "AssetKind": "All",
@@ -1258,10 +1326,27 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\a1ccf685-cb4c-4fe0-b5a7-3ba510138c92.jpg"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\bed3af1b-93c7-4151-985c-c6d37033c60a.jpg",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\b07b2b94-4a64-4ab7-b3c0-89de2aabd474.jpg",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/b07b2b94-4a64-4ab7-b3c0-89de2aabd474.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\b07b2b94-4a64-4ab7-b3c0-89de2aabd474.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\bed3af1b-93c7-4151-985c-c6d37033c60a.jpg",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/bed3af1b-93c7-4151-985c-c6d37033c60a.jpg",
       "AssetKind": "All",
@@ -1275,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\bed3af1b-93c7-4151-985c-c6d37033c60a.jpg"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\images\\products\\f74ce64e-7fce-4f4f-9e07-d05288ce282b.png",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\f74ce64e-7fce-4f4f-9e07-d05288ce282b.png",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "images/products/f74ce64e-7fce-4f4f-9e07-d05288ce282b.png",
       "AssetKind": "All",
@@ -1292,10 +1377,27 @@
       "OriginalItemSpec": "wwwroot\\images\\products\\f74ce64e-7fce-4f4f-9e07-d05288ce282b.png"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\js\\product.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\f94bd34a-431d-4731-97ff-525c5f4b549d.jpg",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/f94bd34a-431d-4731-97ff-525c5f4b549d.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\f94bd34a-431d-4731-97ff-525c5f4b549d.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\js\\product.js",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "js/product.js",
       "AssetKind": "All",
@@ -1309,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\js\\product.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\js\\site.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1326,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1343,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1360,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1377,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1394,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1411,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1428,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1445,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1462,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1479,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1496,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1513,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1530,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1547,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1564,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1581,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1598,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1615,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1632,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1649,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1666,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1683,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1700,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1717,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1734,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1751,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1768,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1785,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1802,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1819,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1836,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1853,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1870,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1887,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1904,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1921,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1938,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1955,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1972,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1989,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2006,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2023,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2040,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2057,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2074,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2091,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2108,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2125,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2142,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2159,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2176,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2193,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2210,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2227,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2244,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2261,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2278,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "dotNetApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Simofatt\\dotNet2\\dotNetApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
       "BasePath": "_content/dotNetApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
