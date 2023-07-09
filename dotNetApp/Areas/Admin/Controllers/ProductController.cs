@@ -17,35 +17,32 @@ namespace dotNetApp.Areas.Admin.Controllers
     [Authorize(Roles=SD.Role_Admin)]
     public class ProductController : Controller
     {
-        
-        // private readonly ApplicationDbContext _db;
-        //private readonly IProductRepository _categoryRepo;    // we are asking dependency injection to give us the object of IProductRepository
         private readonly IUnitOfWork _unitOfWork;
         private readonly IWebHostEnvironment _webHostEnvironment;
         public ProductController(IUnitOfWork unitOfWork, IWebHostEnvironment webHostEnvironment)
         {
-
             _unitOfWork = unitOfWork; 
             _webHostEnvironment = webHostEnvironment;
         }
+
         public IActionResult Index()
         {
-          
             return View();
         }
 
-        public IActionResult Upsert(int? Id)
+        [HttpGet]
+        public async Task<IActionResult> Upsert(int? Id)
         {
-            //C# 9.0  syntax  for creating object 
-            //Initialize the object and its properties in one line of code
+
+            var categories = await _unitOfWork.Category.GetAllAsync();
             ProductVM product = new()
             {
 
                 //TRANSFORMING THE LIST OF CATEGORY INTO SELECT LIST ITEM EACH ITEM WE CREATE AN INSTANCE AND IT HAS A TEXT AND VALUE
-                CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                CategoryList = categories.Select(c => new SelectListItem
                 {
-                    Text = u.name,
-                    Value = u.category_id.ToString()
+                    Text = c.name,
+                    Value = c.category_id.ToString()
                 }),
                 Product = new Product()
 
@@ -58,61 +55,68 @@ namespace dotNetApp.Areas.Admin.Controllers
              else
             {
                 //UPDATE 
-                product.Product = _unitOfWork.Product.Get(u => u.Id == Id);
-                return View(product);
+                var ProductAsync = await _unitOfWork.Product.GetAsync(u => u.Id == Id);
+                    if (ProductAsync is null)
+                        return NotFound();
+
+              
+                    product.Product= ProductAsync;  
+                    return View(product);
+                
+                
             }
         }
+
         [HttpPost]
-        public IActionResult Upsert(ProductVM obj,IFormFile? file)
+        public async Task<IActionResult> Upsert(ProductVM obj,IFormFile? file)
         {
-          
+         
             if (ModelState.IsValid)
             {
                 if (file != null)
                 {
-                    string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
-                   // string path = Path.Combine(_webHostEnvironment.WebRootPath, @"/images/products");
-                    string path = Path.Combine(_webHostEnvironment.WebRootPath, "images", "products");
+                        string fileName = Guid.NewGuid().ToString() + Path.GetExtension(file.FileName);
+                       // string path = Path.Combine(_webHostEnvironment.WebRootPath, @"/images/products");
+                        string path = Path.Combine(_webHostEnvironment.WebRootPath, "images", "products");
                   
                    
-                    //DELETE THE OLD IMAGE
-                    if(!string.IsNullOrEmpty(obj.Product.ImgUrl)) {
-                        var oldPath = Path.Combine(_webHostEnvironment.WebRootPath, obj.Product.ImgUrl);
-
-                        if (System.IO.File.Exists(oldPath))
-                        {
-                            System.IO.File.Delete(oldPath);
+                        //DELETE THE OLD IMAGE
+                        if(!string.IsNullOrEmpty(obj.Product.ImgUrl)) {
+                            var oldPath = Path.Combine(_webHostEnvironment.WebRootPath, obj.Product.ImgUrl);
+                            if (System.IO.File.Exists(oldPath))
+                            {
+                                System.IO.File.Delete(oldPath);
+                            }
                         }
-                    }
-                    using (var fileStream = new FileStream(Path.Combine(path, fileName), FileMode.Create))
-                    {
-                        file.CopyTo(fileStream);
-                    }
-                    obj.Product.ImgUrl = "/images/products/" + fileName;
+                        using (var fileStream = new FileStream(Path.Combine(path, fileName), FileMode.Create))
+                        {
+                            file.CopyTo(fileStream);
+                        }
+                        obj.Product.ImgUrl = "/images/products/" + fileName;
                 }
                 if(obj.Product.Id!=0)
                 {
-                    _unitOfWork.Product.Update(obj.Product);
+                   await _unitOfWork.Product.Update(obj.Product);
                     TempData["success"] = "Product updated successfully";
                 }
                 else
                 {
-                    _unitOfWork.Product.Add(obj.Product);
+                   await _unitOfWork.Product.AddAsync(obj.Product);
                     TempData["success"] = "Product created successfully";
                 }
                     
-                _unitOfWork.Save();
+               
                
                 return RedirectToAction("Index", "Product");
 
                 }
             
           
-            return View();
+            return View(obj);
 
         }
 
-        public IActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || id == 0)
             {
@@ -120,11 +124,7 @@ namespace dotNetApp.Areas.Admin.Controllers
             }
             else
             {
-                Product product = _unitOfWork.Product.Get(u => u.Id == id);
-
-              
-
-
+                var product = await _unitOfWork.Product.GetAsync(u => u.Id == id);
                 if (product == null)
                 {
                     return NotFound();
@@ -136,13 +136,13 @@ namespace dotNetApp.Areas.Admin.Controllers
 
 
         [HttpPost]
-        public IActionResult Edit(Product obj)
+        public async Task<IActionResult> Edit(Product obj)
         {
 
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Update(obj);
-                _unitOfWork.Save();
+                await _unitOfWork.Product.Update(obj);
+                
                 TempData["success"] = "Product modified successfully";
                 return RedirectToAction("Index", "Product");
             }
@@ -154,24 +154,24 @@ namespace dotNetApp.Areas.Admin.Controllers
 
         #region api Calls
         [HttpGet]
-        public IActionResult getAll()
+        public async Task<IActionResult> getAll()
         {
-            List<Product> objList = _unitOfWork.Product.GetAll("Category").ToList(); 
+            IEnumerable<Product?> objList =await _unitOfWork.Product.GetAllAsync("Category"); 
             return Json (new  { data = objList}) ;
         }
 
         [HttpDelete]
-        public IActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
-            Product product = _unitOfWork.Product.Get(u => u.Id == id);
+            Product? product = await _unitOfWork.Product.GetAsync(u => u.Id == id);
             if (product == null)
             {
                 return Json(new { success=false , message = "Product not found" });
             }
             else
             {
-                _unitOfWork.Product.Remove(product);
-                _unitOfWork.Save();
+                await _unitOfWork.Product.RemoveAsync(product);
+                
                
                 return Json(new { success = true, message = "Product delete successfully" });
             }

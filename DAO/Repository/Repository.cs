@@ -23,13 +23,14 @@ namespace dotNet.DAO.Repository
             dbSet = _db.Set<T>();   //_db.Categories == dbSet
             
         }
-        public void Add(T entity)
+        public async Task AddAsync(T entity)
         {
             
-            dbSet.Add(entity);
+            await dbSet.AddAsync(entity);
+            await _db.SaveChangesAsync();
         }
 
-        public T Get(Expression<Func<T, bool>> filter,string? includePropreties = null)
+        public async Task<T?> GetAsync(Expression<Func<T, bool>> filter,string? includePropreties = null)
         {
           
              IQueryable<T> query = dbSet.Where(filter);
@@ -40,13 +41,14 @@ namespace dotNet.DAO.Repository
                     
                 }
             }
-           
-                return query.FirstOrDefault();
+                    
+                 
+                return await query.FirstOrDefaultAsync();
             
         }
 
 
-        public IEnumerable<T> GetAll(string? includePropreties = null)
+        public async Task<IEnumerable<T>> GetAllAsync(string? includePropreties = null)
         {
             IQueryable<T> query = dbSet;
             if (!string.IsNullOrEmpty(includePropreties)) {
@@ -57,19 +59,22 @@ namespace dotNet.DAO.Repository
                 }
                 
             }
-            return query;
+            return await query.ToListAsync();
+
         }
 
         
 
-        public void Remove(T entity)
+        public async Task RemoveAsync(T entity)
         {
             dbSet.Remove(entity);
+            await _db.SaveChangesAsync();
         }
 
-        public void RemoveRange(IEnumerable<T> entity)
+        public async Task RemoveRangeAsync(IEnumerable<T> entity)
         {
             dbSet.RemoveRange(entity);
+            await _db.SaveChangesAsync();
         }
     }
 }

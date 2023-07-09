@@ -24,9 +24,9 @@ namespace dotNetApp.Areas.Admin.Controllers
 
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-            List<Category> objList = _unitOfWork.Category.GetAll().ToList();
+            IEnumerable<Category> objList = await _unitOfWork.Category.GetAllAsync();
             return View(objList);
         }
 
@@ -35,7 +35,7 @@ namespace dotNetApp.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Category obj)
+        public async Task<IActionResult> Create(Category obj)
         {
             if (obj.name == obj.DisplayOrder.ToString())
             {
@@ -43,8 +43,8 @@ namespace dotNetApp.Areas.Admin.Controllers
             }
             if (ModelState.IsValid)
             {
-                _unitOfWork.Category.Add(obj);
-                _unitOfWork.Save();
+                await _unitOfWork.Category.AddAsync(obj);
+                
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index", "Category");
             }
@@ -53,7 +53,7 @@ namespace dotNetApp.Areas.Admin.Controllers
 
         }
 
-        public IActionResult Edit(int? id)
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null || id == 0)
             {
@@ -61,7 +61,7 @@ namespace dotNetApp.Areas.Admin.Controllers
             }
             else
             {
-                Category cat = _unitOfWork.Category.Get(c => c.category_id == id);
+                Category? cat = await _unitOfWork.Category.GetAsync(c => c.category_id == id);
 
                 //USED IF THE ID IS NOT PRIMARY KEY
                 //Category? cat2 = _db.Categories.FirstOrDefault(u => u.category_id == id);
@@ -79,13 +79,13 @@ namespace dotNetApp.Areas.Admin.Controllers
 
 
         [HttpPost]
-        public IActionResult Edit(Category obj)
+        public async Task <IActionResult> Edit(Category obj)
         {
 
             if (ModelState.IsValid)
             {
-                _unitOfWork.Category.Update(obj);
-                _unitOfWork.Save();
+                await _unitOfWork.Category.Update(obj);
+                
                 TempData["success"] = "Category modified successfully";
                 return RedirectToAction("Index", "Category");
             }
@@ -94,17 +94,17 @@ namespace dotNetApp.Areas.Admin.Controllers
 
         }
 
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            Category cat = _unitOfWork.Category.Get(u => u.category_id == id);
+            Category? cat = await _unitOfWork.Category.GetAsync(u => u.category_id == id);
             if (cat == null)
             {
                 return NotFound();
             }
             else
             {
-                _unitOfWork.Category.Remove(cat);
-                _unitOfWork.Save();
+                await _unitOfWork.Category.RemoveAsync(cat);
+                
                 TempData["success"] = "Category delete successfully";
                 return RedirectToAction("Index", "Category");
             }

@@ -14,7 +14,7 @@ namespace dotNet.DAO.Repository.IRepository
         IOrderRepository Order { get; }   
        
 
-        void Save();
+        
 
 
     }

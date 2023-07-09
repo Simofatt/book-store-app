@@ -10,8 +10,8 @@ namespace dotNet.DAO.Repository.IRepository
 {
     public interface IOrderRepository : IRepository<Order>
     {
-        void Update(Order entity);
-         IQueryable<Order> GetOrders( Expression<Func<Order, bool>> filter, string? includePropreties = null) ;
-         string GetUserId(string? email);
+
+       Task<IEnumerable<Order>> GetOrdersAsync( Expression<Func<Order, bool>> filter, string? includePropreties = null) ;
+       
     }
 }

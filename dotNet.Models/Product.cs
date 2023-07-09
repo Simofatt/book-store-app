@@ -16,12 +16,16 @@ namespace dotNet.Models
         public int Id { get; set; }
         [Required]
         public string? Title { get; set; }
+
         [Required]
         public string? Description { get; set; }
+
         [Required]
         public string? ISBN { get; set; }
+
         [Required]
         public string? Author { get; set; }
+
         [Required]
         [Display(Name = "List Price")]
         [Range(1, 1000)]
@@ -47,6 +51,7 @@ namespace dotNet.Models
         [ForeignKey("CategoryId")]
         [ValidateNever]
         public Category? Category { get; set; }
+
         [ValidateNever]
         public String? ImgUrl { get; set; } 
 

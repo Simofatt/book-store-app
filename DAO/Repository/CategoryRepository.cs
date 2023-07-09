@@ -19,9 +19,10 @@ namespace dotNet.DAO.Repository
         {
             _db = db;
         }
-        public void Update(Category obj)
+        public async Task Update(Category obj)
         {
-            _db.Categories.Update(obj);
+             _db.Categories.Update(obj);
+            await _db.SaveChangesAsync();
         }
     }
 }

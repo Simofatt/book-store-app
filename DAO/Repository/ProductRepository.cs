@@ -17,7 +17,7 @@ namespace dotNet.DAO.Repository
         {
             _db = db; 
         }
-        public void Update(Product pro)
+        public async Task Update(Product pro)
         {
             var objFromDb = _db.Products.FirstOrDefault(u =>u.Id ==pro.Id);
             if(objFromDb !=null)
@@ -34,8 +34,9 @@ namespace dotNet.DAO.Repository
 
                 if(pro.ImgUrl !=null)
                 {
-                    objFromDb.ImgUrl = pro.ImgUrl;
+                   objFromDb.ImgUrl = pro.ImgUrl;
                 }
+                await _db.SaveChangesAsync();
 
             }
 

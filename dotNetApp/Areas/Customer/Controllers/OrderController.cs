@@ -31,12 +31,12 @@ namespace dotNetApp.Areas.Customer.Controllers
 
         [HttpPost]
         [Authorize]
-        public IActionResult Add(Order entity)
+        public async Task<IActionResult> AddAsync(Order entity)
         {
             if (entity != null)
             {
-                _unitOfWork.Order.Add(entity);
-                _unitOfWork.Save();
+               await _unitOfWork.Order.AddAsync(entity);
+               
             }
             else
             {
@@ -48,24 +48,29 @@ namespace dotNetApp.Areas.Customer.Controllers
         }
         [HttpGet]
         [Authorize]
-        public IActionResult Order()
+        public async Task<IActionResult> Order()
         {
             
             var userId = _userManager.GetUserId(User);
             Console.Write($"USER ID {userId}");
            
-            IQueryable<Order> orders = _unitOfWork.Order.GetOrders(o => o.UserId == userId, "Product");
+            IEnumerable<Order> orders = await _unitOfWork.Order.GetOrdersAsync(o => o.UserId == userId, "Product");
+            if (orders is null || orders.Count() == 0)
+                return NotFound();
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+                
             return View(orders);
         }
-        public IActionResult Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
         {
             if (id != null)
             {
-                Order entity = _unitOfWork.Order.Get(o => o.Id == id);
+                Order? entity =await _unitOfWork.Order.GetAsync(o => o.Id == id);
                 if (entity != null)
                 {
-                    _unitOfWork.Order.Remove(entity);
-                    _unitOfWork.Save();
+                    await _unitOfWork.Order.RemoveAsync(entity);
+                   
                 }
                 else
                 {

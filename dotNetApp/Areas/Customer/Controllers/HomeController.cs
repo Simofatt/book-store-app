@@ -10,26 +10,27 @@ namespace dotNetApp.Areas.Customer.Controllers
     public class HomeController : Controller
     {
          
-        //private readonly ILogger<HomeController> _logger;
+       
         private readonly IUnitOfWork _unitOfWork; 
 
         public HomeController(IUnitOfWork unitOfWork)
         {
-            //_logger = logger;
+      
             _unitOfWork = unitOfWork;
         }
 
-        public IActionResult Index()
+
+        public async Task<IActionResult> Index()
         {
-            
-           
-            IEnumerable<Product> products = _unitOfWork.Product.GetAll("Category").ToList();
+            IEnumerable<Product> products = await _unitOfWork.Product.GetAllAsync("Category");
             return View(products);
         }
         [Authorize]
-        public IActionResult Detail(int? id)
+        public async Task<IActionResult> Detail(int? id)
         {
-            Product product = _unitOfWork.Product.Get(p => p.Id == id, "Category");
+            Product? product = await _unitOfWork.Product.GetAsync(p => p.Id == id, "Category");
+            if (product is null)
+                return NotFound();
             return View(product);
         }
 
