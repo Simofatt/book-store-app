@@ -11,11 +11,10 @@ namespace dotNet.DAO.Repository.IRepository
     {
         ICategoryRepository Category {  get;}
         IProductRepository Product { get; }
-        IOrderRepository Order { get; }   
-       
+        IOrderRepository Order { get; }
 
-        
-
+        Task Rollback();
+        Task<int> Commit();
 
     }
 

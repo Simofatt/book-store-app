@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "y9zjnA+6rzh/coyyDwUo9JBMDYttl6qf40Czrq6Pc5k=",
+  "Hash": "CcDcl1ilW1CU+LoGaqmGGaoKoMAtQKv7Ds5o/ZVKE4c=",
   "Source": "dotNetApp",
   "BasePath": "_content/dotNetApp",
   "Mode": "Default",
@@ -1239,6 +1239,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\products\\47d0afd4-df47-4555-9b38-69757763f19c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\4a936930-e2fd-493c-8117-fe5e5bff47af.jpg",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/4a936930-e2fd-493c-8117-fe5e5bff47af.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\4a936930-e2fd-493c-8117-fe5e5bff47af.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\5dc6bac6-063d-4ae2-bbce-453a735615dc.jpg",
+      "SourceId": "dotNetApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\",
+      "BasePath": "_content/dotNetApp",
+      "RelativePath": "images/products/5dc6bac6-063d-4ae2-bbce-453a735615dc.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\products\\5dc6bac6-063d-4ae2-bbce-453a735615dc.jpg"
     },
     {
       "Identity": "C:\\Users\\Simofatt\\BookStore\\dotNetApp\\wwwroot\\images\\products\\7beecb1e-2ca6-495e-9a17-d5a487e86ed4.jpg",

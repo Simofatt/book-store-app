@@ -13,7 +13,7 @@ namespace dotNet.DAO.Repository.IRepository
         Task<IEnumerable<T>> GetAllAsync(string? includePropreties =null);
 
         Task<T?> GetAsync(Expression<Func<T, bool>> filter, string? includePropreties = null);
-        Task  AddAsync(T entity);
+        Task<T> AddAsync(T entity);
         Task RemoveAsync(T entity);
         Task RemoveRangeAsync(IEnumerable<T> entity);
     }

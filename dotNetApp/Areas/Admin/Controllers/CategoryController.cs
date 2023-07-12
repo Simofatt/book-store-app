@@ -44,6 +44,7 @@ namespace dotNetApp.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 await _unitOfWork.Category.AddAsync(obj);
+                await _unitOfWork.Commit();
                 
                 TempData["success"] = "Category created successfully";
                 return RedirectToAction("Index", "Category");
@@ -85,7 +86,8 @@ namespace dotNetApp.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 await _unitOfWork.Category.Update(obj);
-                
+                await _unitOfWork.Commit();
+
                 TempData["success"] = "Category modified successfully";
                 return RedirectToAction("Index", "Category");
             }
@@ -104,7 +106,8 @@ namespace dotNetApp.Areas.Admin.Controllers
             else
             {
                 await _unitOfWork.Category.RemoveAsync(cat);
-                
+                await _unitOfWork.Commit();
+
                 TempData["success"] = "Category delete successfully";
                 return RedirectToAction("Index", "Category");
             }

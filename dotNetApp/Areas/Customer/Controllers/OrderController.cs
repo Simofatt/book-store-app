@@ -18,7 +18,6 @@ namespace dotNetApp.Areas.Customer.Controllers
 
         public OrderController(IUnitOfWork unitOfWork, SignInManager<IdentityUser> SignInManager, UserManager<IdentityUser> UserManager)
         {
-            
             _unitOfWork = unitOfWork;
             _signInManager = SignInManager;
             _userManager = UserManager;
@@ -36,7 +35,8 @@ namespace dotNetApp.Areas.Customer.Controllers
             if (entity != null)
             {
                await _unitOfWork.Order.AddAsync(entity);
-               
+               await _unitOfWork.Commit();
+
             }
             else
             {
@@ -62,6 +62,7 @@ namespace dotNetApp.Areas.Customer.Controllers
                 
             return View(orders);
         }
+        [HttpDelete]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id != null)
@@ -70,7 +71,7 @@ namespace dotNetApp.Areas.Customer.Controllers
                 if (entity != null)
                 {
                     await _unitOfWork.Order.RemoveAsync(entity);
-                   
+                    await _unitOfWork.Commit();
                 }
                 else
                 {

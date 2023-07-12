@@ -97,11 +97,13 @@ namespace dotNetApp.Areas.Admin.Controllers
                 if(obj.Product.Id!=0)
                 {
                    await _unitOfWork.Product.Update(obj.Product);
+                   await _unitOfWork.Commit();
                     TempData["success"] = "Product updated successfully";
                 }
                 else
                 {
                    await _unitOfWork.Product.AddAsync(obj.Product);
+                   await _unitOfWork.Commit();
                     TempData["success"] = "Product created successfully";
                 }
                     
@@ -125,6 +127,7 @@ namespace dotNetApp.Areas.Admin.Controllers
             else
             {
                 var product = await _unitOfWork.Product.GetAsync(u => u.Id == id);
+
                 if (product == null)
                 {
                     return NotFound();
@@ -142,7 +145,8 @@ namespace dotNetApp.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 await _unitOfWork.Product.Update(obj);
-                
+                await _unitOfWork.Commit();
+
                 TempData["success"] = "Product modified successfully";
                 return RedirectToAction("Index", "Product");
             }
@@ -157,6 +161,7 @@ namespace dotNetApp.Areas.Admin.Controllers
         public async Task<IActionResult> getAll()
         {
             IEnumerable<Product?> objList =await _unitOfWork.Product.GetAllAsync("Category"); 
+
             return Json (new  { data = objList}) ;
         }
 
@@ -171,8 +176,9 @@ namespace dotNetApp.Areas.Admin.Controllers
             else
             {
                 await _unitOfWork.Product.RemoveAsync(product);
-                
-               
+                await _unitOfWork.Commit();
+
+
                 return Json(new { success = true, message = "Product delete successfully" });
             }
 
