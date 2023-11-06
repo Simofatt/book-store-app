@@ -1,4 +1,4 @@
-# Contributing to onion-architecture
+# Contributing to book-store-app
 
 We welcome and appreciate contributions to this open-source project. Whether you want to fix a bug, add a new feature, improve documentation, or suggest enhancements, your help is valuable. Here's how you can get involved:
 
