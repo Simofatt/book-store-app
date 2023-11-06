@@ -48,4 +48,32 @@ Before you begin, ensure you have met the following requirements:
    dotnet restore
    dotnet ef database update
    dotnet run
+   ### Configuration
+
+To configure the application, follow these steps:
+
+1. Provide detailed information on how to set up authentication and security.
+2. Configure any other settings relevant to your specific project requirements.
+
+### Usage
+
+1. Register as a user if you don't have an account, or log in if you already have one.
+2. Explore the bookstore's inventory and manage it based on your role (user or admin).
+3. Perform various operations, such as adding, editing, and deleting books.
+
+### Contributing
+
+If you'd like to contribute to the project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them with clear, descriptive messages.
+4. Push your changes to your fork.
+5. Create a pull request against the main repository.
+
+Please ensure that your code follows best practices and includes relevant tests if applicable.
+
+### License
+
+This project is licensed under the MIT License.
 
